@@ -9,9 +9,9 @@
       background-size: cover;
       background-repeat: no-repeat;
       h2 {
-        padding-top: 4vw;
+        padding-top: 10vw;
         text-align: center;
-        font-size: 21vw;
+        font-size: 30vw;
         color: #fff;
         font-weight: 300;
       }
@@ -23,7 +23,7 @@
         text-align: center;
       }
       .desc2 {
-        font-size: 4vw;
+        font-size: 5vw;
         color: #fff;
         text-transform: uppercase;
         margin-left: 15vw;
@@ -33,6 +33,13 @@
         width: 40vw;
         margin-left: 15vw;
         padding-top: 10vw;
+        position: relative;
+        img {
+          width: 50vw;
+          position: absolute;
+          left: 10vw;
+          top: 10vw;
+        }
         .name {
           font-size: 3vw;
           color: #fff;

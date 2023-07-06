@@ -6,18 +6,18 @@
     margin: 0 auto;
     background-color: #f5e9df;
     .title {
-      font-size: 13vw;
+      font-size: 18vw;
       text-align: right;
       padding-top: 10vw;
       font-weight: 100;
       color: #4b3d30;
     }
     .subTitle {
-      font-size: 3vw;
+      font-size: 4vw;
       text-align: left;
       text-transform: uppercase;
       padding-top: 4vw;
-      margin-left: 35vw;
+      margin-left: 50vw;
       color: #4b3d30;
     }
     .aboutBox1 {
@@ -33,27 +33,32 @@
         }
       }
       .text {
-        font-size: 1vw;
+        font-size: 10px;
         font-family: NexonLv1GothicLow;
         margin-top: 5vw;
-        padding-left: 9vw;
+        padding-left: 10vw;
         color: #4b3d30;
       }
     }
     .aboutBox2 {
+      margin-top: 45vw;
+      position: relative;
       .about__title1 {
-        font-size: 8vw;
-        margin-top: 35vw;
+        font-size: 10vw;
+        // margin-top: 35vw;
         color: #be968b;
+        position: absolute;
+        left: 0;
+        top: 35vw;
       }
       .text {
         .img {
           background-image: url(../assets/images/main1__me03.jpg);
-          width: 20vw;
-          height: 20vh;
+          width: 40vw;
+          height: 30vh;
           background-size: cover;
           background-repeat: no-repeat;
-          margin-left: 45vw;
+          margin-left: 50vw;
           margin-top: -30vw;
         }
         .desc {
@@ -67,19 +72,20 @@
       }
     }
     .aboutBox3 {
+      margin-top: 20vw;
       position: relative;
       .about__title2 {
-        font-size: 8vw;
+        font-size: 10vw;
         position: absolute;
-        left: 30vw;
-        top: 15vw;
+        left: 40vw;
+        top: 5vw;
         color: #906d63;
       }
       .text {
         .img {
           background-image: url(../assets/images/main1__me01.jpg);
-          width: 25vw;
-          height: 35vw;
+          width: 35vw;
+          height: 45vw;
           margin-left: 3vw;
           margin-top: 20vw;
           background-size: cover;
@@ -89,9 +95,10 @@
           font-size: 1vw;
           font-family: NexonLv1GothicLow;
           position: absolute;
-          left: 30vw;
-          top: 27vw;
+          left: 40vw;
+          top: 21vw;
           color: #4b3d30;
+          line-height: 1.5;
         }
       }
     }

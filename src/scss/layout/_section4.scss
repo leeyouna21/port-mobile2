@@ -7,26 +7,26 @@
     .parallax__item {
       position: relative;
       .parallax__item__num {
-        font-size: 6vw;
+        font-size: 8vw;
         position: absolute;
-        left: 37vw;
-        top: 5vw;
+        left: 7vw;
+        top: 107vw;
         font-weight: 200;
       }
       .parallax__item__text1 {
-        font-size: 10px;
+        font-size: 3px;
         font-family: NexonLv1GothicLow;
         position: absolute;
-        left: 38vw;
-        top: 15vw;
-        line-height: 1.7;
+        right: 1vw;
+        top: 110vw;
+        line-height: 1.5;
         text-align: left;
       }
       .parallax__item__imgWrap {
         .parallax__item__img {
           background-image: url(../assets/images/img01.png);
-          width: 50%;
-          height: 30vh;
+          width: 100%;
+          height: 60vh;
           background-size: cover;
           background-repeat: no-repeat;
         }
@@ -36,30 +36,30 @@
       position: relative;
 
       .git {
-        width: 11vw;
-        height: 3vw;
+        width: 15vw;
+        height: 5vw;
         font-size: 1.3vw;
         border-radius: 50px;
         background-color: #f5e9df;
         color: #ad8073;
         border: 1px solid #ad8073;
         position: absolute;
-        left: 38vw;
-        top: -7vw;
+        left: 10vw;
+        top: 21vw;
         text-align: center;
         font-weight: 100;
       }
       .site {
-        width: 11vw;
-        height: 3vw;
+        width: 15vw;
+        height: 5vw;
         font-size: 1.3vw;
         border-radius: 50px;
         background-color: #f5e9df;
         color: #ad8073;
         border: 1px solid #ad8073;
         position: absolute;
-        left: 52vw;
-        top: -7vw;
+        left: 30vw;
+        top: 21vw;
         text-align: center;
         font-weight: 100;
       }
@@ -73,60 +73,61 @@
           height: 30vh;
           background-size: cover;
           background-repeat: no-repeat;
-          background-image: url(../assets/images/img02.png);
+          background-image: url(../../images/img02.png);
           position: absolute;
           right: 0;
         }
       }
       .parallax__item__num2 {
-        font-size: 6vw;
+        font-size: 8vw;
         position: absolute;
-        left: 2vw;
+        left: 3vw;
         top: 3vw;
         font-weight: 200;
       }
       .parallax__item__text2 {
-        font-size: 10px;
+        font-size: 1vw;
         font-family: NexonLv1GothicLow;
         position: absolute;
-        left: 2vw;
-        top: 13vw;
+        left: 3vw;
+        top: 17vw;
         line-height: 1.7;
       }
     }
     .button2 {
       position: relative;
       .git2 {
-        width: 11vw;
-        height: 3vw;
+        width: 15vw;
+        height: 5vw;
         font-size: 1.3vw;
         border-radius: 50px;
         background-color: #f5e9df;
         color: #ad8073;
         border: 1px solid #ad8073;
         position: absolute;
-        left: 4vw;
-        top: 35vw;
+        left: 5vw;
+        top: 38vw;
         text-align: center;
         font-weight: 100;
       }
       .site2 {
-        width: 11vw;
-        height: 3vw;
+        width: 15vw;
+        height: 5vw;
         font-size: 1.3vw;
         border-radius: 50px;
         background-color: #f5e9df;
         color: #ad8073;
         border: 1px solid #ad8073;
         position: absolute;
-        left: 18vw;
-        top: 35vw;
+        left: 25vw;
+        top: 38vw;
         text-align: center;
         font-weight: 100;
       }
     }
     .parallax__item3 {
       position: relative;
+      margin-top: 10vw;
       .parallax__item__imgWrap3 {
         width: 50%;
         height: 30vh;
@@ -134,22 +135,22 @@
         background-repeat: no-repeat;
         position: absolute;
         top: 40vw;
-        background-image: url(../assets/images/img03.png);
+        background-image: url(../../images/img03.png);
         .parallax__item__img3 {
         }
       }
       .parallax__item__num3 {
-        font-size: 6vw;
+        font-size: 8vw;
         position: absolute;
-        left: 37vw;
+        right: 13vw;
         top: 43vw;
         font-weight: 200;
       }
       .parallax__item__text3 {
-        font-size: 10px;
+        font-size: 1vw;
         font-family: NexonLv1GothicLow;
         position: absolute;
-        left: 37vw;
+        right: 2vw;
         top: 55vw;
         line-height: 1.7;
         text-align: left;
@@ -159,35 +160,36 @@
       position: relative;
 
       .git3 {
-        width: 11vw;
-        height: 3vw;
+        width: 15vw;
+        height: 5vw;
         font-size: 1.3vw;
         border-radius: 50px;
         background-color: #f5e9df;
         color: #ad8073;
         border: 1px solid #ad8073;
         position: absolute;
-        left: 38vw;
-        top: 73vw;
+        right: 30vw;
+        top: 80vw;
         text-align: center;
         font-weight: 100;
       }
       .site3 {
-        width: 11vw;
-        height: 3vw;
+        width: 15vw;
+        height: 5vw;
         font-size: 1.3vw;
         border-radius: 50px;
         background-color: #f5e9df;
         color: #ad8073;
         border: 1px solid #ad8073;
         position: absolute;
-        left: 52vw;
-        top: 73vw;
+        right: 10vw;
+        top: 80vw;
         text-align: center;
         font-weight: 100;
       }
     }
     .parallax__item4 {
+      margin-top: 20vw;
       position: relative;
       .parallax__item__imgWrap4 {
         .parallax__item__img4 {
@@ -195,17 +197,17 @@
           height: 30vh;
           background-size: cover;
           background-repeat: no-repeat;
-          background-image: url(../assets/images/img04.png);
+          background-image: url(../../images/img04.png);
           position: absolute;
           right: 0;
           top: 80vw;
         }
       }
       .parallax__item__num4 {
-        font-size: 4.5vw;
+        font-size: 7vw;
         position: absolute;
         top: 85vw;
-        left: 1vw;
+        left: 2vw;
         font-weight: 200;
       }
       .parallax__item__text4 {
@@ -213,7 +215,7 @@
         font-family: NexonLv1GothicLow;
         position: absolute;
         left: 2vw;
-        top: 95vw;
+        top: 100vw;
         line-height: 1.7;
       }
     }
@@ -252,8 +254,8 @@
     .button4 {
       position: relative;
       .git4 {
-        width: 11vw;
-        height: 3vw;
+        width: 15vw;
+        height: 5vw;
         font-size: 1.3vw;
         border-radius: 50px;
         background-color: #f5e9df;
@@ -261,21 +263,21 @@
         border: 1px solid #ad8073;
         position: absolute;
         left: 4vw;
-        top: 115vw;
+        top: 125vw;
         text-align: center;
         font-weight: 100;
       }
       .site4 {
-        width: 11vw;
-        height: 3vw;
+        width: 15vw;
+        height: 5vw;
         font-size: 1.3vw;
         border-radius: 50px;
         background-color: #f5e9df;
         color: #ad8073;
         border: 1px solid #ad8073;
         position: absolute;
-        left: 18vw;
-        top: 115vw;
+        left: 25vw;
+        top: 125vw;
         text-align: center;
         font-weight: 100;
       }

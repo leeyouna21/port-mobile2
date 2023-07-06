@@ -97,9 +97,11 @@
             <div class="box"></div>
             <div class="text split">
               <span
-                >It is more than just coding; it is stories filled with
-                inspiration, creativity, and passion that will bring life to my
-                coding.</span
+                >It is more than just coding;<br />
+                it is stories filled with<br />
+                inspiration, creativity,<br />
+                and passion that will<br />
+                bring life to my coding.</span
               >
             </div>
           </div>
@@ -164,7 +166,7 @@
                   온리포유! 온리포유에서는 다양한 건강<br />
                   음식들과 맛있는 레시피를 제공합니다.<br />
                   온리포유는
-                  <span style="color: #883d00"
+                  <span style="color: #f1e0c5"
                     >PHP를 통해 회원가입, 로그인,<br />
                     요리방 등 기능</span
                   >을 구현하였습니다.<br />
@@ -211,7 +213,18 @@
 
         <section id="section5 " data-bgcolor="#F4F0EA">
           <div class="container">
-            <div class="award__wrap">
+            <div class="next__wrap">
+              <div class="next__text1">since</div>
+              <div class="next__text2">2023</div>
+              <div class="next__text3">
+                What to Watch From Now:<br />
+                <span style="color: #883d00"
+                  >JAVASCRIPT, REACT, NODE.JS, VUE</span
+                ><br />
+                I worked on it myself !!
+              </div>
+            </div>
+            <!-- <div class="award__wrap">
               <div class="award__container">
                 <div class="award__inner">
                   <div class="award__text01">since</div>
@@ -225,7 +238,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </section>
 
@@ -517,7 +530,7 @@
     </script>
 
     <!-- 수상경력 글씨 늦게 나오게하기 -->
-    <script>
+    <!-- <script>
       function scroll() {
         let scrollTop = window.pageYOffset || window.scrollY;
         let textContainer = document.querySelector(".award__inner");
@@ -545,7 +558,7 @@
       }
 
       window.addEventListener("scroll", scroll);
-    </script>
+    </script> -->
 
     <!-- // 배경변환 -->
     <script>
@@ -558,7 +571,7 @@
         ScrollTrigger.create({
           trigger: colorSection,
           start: "top 50%",
-          end: "bottom 5%",
+          end: "center 50%",
           markers: false,
           onEnter: () =>
             gsap.to("#main", {
@@ -739,6 +752,161 @@
         duration: 0.5,
         scrollTrigger: {
           trigger: ".aboutBox3 .about__title2",
+          start: "top bottom",
+          end: "bottom top",
+          markers: false,
+          scrub: true,
+        },
+      });
+
+      gsap.to("#section4 .sec__inner__text1", {
+        xPercent: -10,
+        ease: "none",
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: "#section4 .sec__inner__text1",
+          start: "top bottom",
+          end: "bottom top",
+          markers: false,
+          scrub: true,
+        },
+      });
+
+      gsap.to("#section4 .sec__inner__text1", {
+        xPercent: -10,
+        ease: "none",
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: "#section4 .sec__inner__text1",
+          start: "top bottom",
+          end: "bottom top",
+          markers: false,
+          scrub: true,
+        },
+      });
+      gsap.to("#section4 .sec__inner__text3", {
+        xPercent: -10,
+        ease: "none",
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: "#section4 .sec__inner__text3",
+          start: "top bottom",
+          end: "bottom top",
+          markers: false,
+          scrub: true,
+        },
+      });
+
+      gsap.to("#section4 .sec__inner__text4", {
+        xPercent: -10,
+        ease: "none",
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: "#section4 .sec__inner__text4",
+          start: "top bottom",
+          end: "bottom top",
+          markers: false,
+          scrub: true,
+        },
+      });
+
+      gsap.to("#section4 .sec__inner__desc1", {
+        xPercent: -3,
+        ease: "none",
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: "#section4 .sec__inner__desc1",
+          start: "top bottom",
+          end: "bottom top",
+          markers: false,
+          scrub: true,
+        },
+      });
+
+      gsap.to("#section4 .sec__inner__desc2", {
+        xPercent: -3,
+        ease: "none",
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: "#section4 .sec__inner__desc2",
+          start: "top bottom",
+          end: "bottom top",
+          markers: false,
+          scrub: true,
+        },
+      });
+
+      gsap.to("#section4 .sec__inner__desc3", {
+        xPercent: -3,
+        ease: "none",
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: "#section4 .sec__inner__desc3",
+          start: "top bottom",
+          end: "bottom top",
+          markers: false,
+          scrub: true,
+        },
+      });
+
+      gsap.to("#section4 .sec__inner__desc4", {
+        xPercent: -3,
+        ease: "none",
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: "#section4 .sec__inner__desc4",
+          start: "top bottom",
+          end: "bottom top",
+          markers: false,
+          scrub: true,
+        },
+      });
+
+      gsap.to("#section6 .scroll__inner__text1", {
+        yPercent: 10,
+        ease: "none",
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: "#section6 .scroll__inner__text1",
+          start: "top bottom",
+          end: "bottom top",
+          markers: false,
+          scrub: true,
+        },
+      });
+
+      gsap.to("#section6 .scroll__inner__text2", {
+        yPercent: 10,
+        ease: "none",
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: "#section6 .scroll__inner__text2",
+          start: "top bottom",
+          end: "bottom top",
+          markers: false,
+          scrub: true,
+        },
+      });
+
+      gsap.to("#section6 .scroll__inner__text3", {
+        yPercent: 10,
+        ease: "none",
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: "#section6 .scroll__inner__text3",
+          start: "top bottom",
+          end: "bottom top",
+          markers: false,
+          scrub: true,
+        },
+      });
+
+      gsap.to("#section6 .scroll__inner__text4", {
+        yPercent: 10,
+        ease: "none",
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: "#section6 .scroll__inner__text4",
           start: "top bottom",
           end: "bottom top",
           markers: false,

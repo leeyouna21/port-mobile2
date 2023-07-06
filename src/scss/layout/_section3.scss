@@ -1,15 +1,17 @@
 #section3 {
+  margin-top: 50vh;
   .container {
     width: 70%;
     min-width: 400px;
-    height: 3vh;
+    height: 80vh;
     .box {
     }
     .text {
       span {
         color: #fff;
-        font-size: 30px;
+        font-size: 25px;
         text-transform: uppercase;
+        text-align: center;
       }
     }
   }

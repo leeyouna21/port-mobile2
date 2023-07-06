@@ -26,7 +26,7 @@
           height: 50vw;
           background-size: cover;
           background-repeat: no-repeat;
-          background-image: url(../assets/images/main1__me02.jpg);
+          background-image: url(../../images/main1__me02.jpg);
           margin-top: 5vw;
           margin-left: 5vw;
         }
@@ -49,10 +49,11 @@
         position: absolute;
         left: 0;
         top: 35vw;
+        z-index: 1000;
       }
       .text {
         .img {
-          background-image: url(../assets/images/main1__me03.jpg);
+          background-image: url(../../images/main1__me03.jpg);
           width: 40vw;
           height: 30vh;
           background-size: cover;
@@ -79,10 +80,11 @@
         left: 40vw;
         top: 5vw;
         color: #906d63;
+        z-index: 1000;
       }
       .text {
         .img {
-          background-image: url(../assets/images/main1__me01.jpg);
+          background-image: url(../../images/main1__me01.jpg);
           width: 35vw;
           height: 45vw;
           margin-left: 3vw;

@@ -20,7 +20,7 @@
         font-size: 15px;
         color: #fff;
         text-transform: uppercase;
-        // margin-left: vw;
+        margin-top: 5vw;
         text-align: center;
       }
       .desc2 {
@@ -28,7 +28,7 @@
         color: #fff;
         text-transform: uppercase;
         margin-left: 15vw;
-        padding-top: 5vw;
+        margin-top: 50vw;
       }
       .desc3 {
         width: 40vw;
@@ -39,13 +39,7 @@
           width: 50vw;
           position: absolute;
           left: 10vw;
-          top: 20vw;
-        }
-        .name {
-          font-size: 3vw;
-          color: #fff;
-          margin-left: 50vw;
-          margin-top: 60vw;
+          top: -10vw;
         }
       }
     }

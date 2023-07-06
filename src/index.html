@@ -32,7 +32,6 @@
             </p>
             <div class="desc3">
               <img src="././images/header__me.png" alt="유나" />
-              <div class="name">HELLO EVERYONE</div>
             </div>
           </div>
         </section>
@@ -106,7 +105,7 @@
           </div>
         </section>
 
-        <section id="section4" data-bgcolor="#ead0bc79">
+        <section id="section4" data-bgcolor="#4d3d30">
           <div class="container">
             <div class="sec__wrap1">
               <div class="sec__img1"></div>
@@ -215,9 +214,9 @@
             <div class="award__wrap">
               <div class="award__container">
                 <div class="award__inner">
-                  <div class="arard__text01">since</div>
-                  <div class="arard__text02">2023</div>
-                  <div class="arard__text03">
+                  <div class="award__text01">since</div>
+                  <div class="award__text02">2023</div>
+                  <div class="award__text03">
                     What to Watch From Now:<br />
                     <span style="color: #883d00"
                       >JAVASCRIPT, REACT, NODE.JS, VUE</span
@@ -230,7 +229,7 @@
           </div>
         </section>
 
-        <section id="section6">
+        <section id="section6" data-bgcolor="#F4F0EA">
           <div class="container">
             <div class="scroll__wrap1">
               <div class="scroll__img1"></div>
@@ -508,7 +507,7 @@
         scrollTop = document.documentElement.scrollTop;
         // const title = document.querySelector(".title");
         // const target1 = title.querySelectorAll(".text");
-        const section6Top = document.querySelector("#section8");
+        const section6Top = document.querySelector("#section7");
         let offset = (scrollTop - section6Top.offsetTop) * 0.8;
         gsap.to(namecard, { duration: 0.8, y: -offset });
 
@@ -522,8 +521,8 @@
       function scroll() {
         let scrollTop = window.pageYOffset || window.scrollY;
         let textContainer = document.querySelector(".award__inner");
-        let textElement = document.querySelector(".arard__text02");
-        let textElement1 = document.querySelector(".arard__text03");
+        let textElement = document.querySelector(".award__text02");
+        let textElement1 = document.querySelector(".award__text03");
 
         if (scrollTop > textContainer.offsetTop - window.innerHeight / 2) {
           textElement.style.opacity = 1;
@@ -695,12 +694,12 @@
         },
       });
 
-      gsap.to(".aboutBox2 .title", {
+      gsap.to(".aboutBox2 .about__title1", {
         xPercent: 10,
         ease: "none",
         duration: 0.5,
         scrollTrigger: {
-          trigger: ".aboutBox2 .title",
+          trigger: ".aboutBox2 .about__title1",
           start: "top bottom",
           end: "bottom top",
           markers: false,
@@ -734,12 +733,12 @@
         },
       });
 
-      gsap.to(".aboutBox3 .title", {
+      gsap.to(".aboutBox3 .about__title2", {
         xPercent: -10,
         ease: "none",
         duration: 0.5,
         scrollTrigger: {
-          trigger: ".aboutBox3 .title",
+          trigger: ".aboutBox3 .about__title2",
           start: "top bottom",
           end: "bottom top",
           markers: false,
@@ -747,20 +746,20 @@
         },
       });
 
-      //section3에서 텍스트 가로로 움직이기
-      const ani3 = gsap.timeline();
-      ani3.to("#section3 .text", { xPercent: -50 });
+      // //section3에서 텍스트 가로로 움직이기
+      // const ani3 = gsap.timeline();
+      // ani3.to("#section3 .text", { xPercent: -50 });
 
-      ScrollTrigger.create({
-        animation: ani3,
-        trigger: "#section3",
-        start: "top top",
-        end: "+=4000",
-        scrub: true,
-        pin: true,
-        markers: false,
-        anticipatePin: 1,
-      });
+      // ScrollTrigger.create({
+      //   animation: ani3,
+      //   trigger: "#section3",
+      //   start: "top top",
+      //   end: "+=4000",
+      //   scrub: true,
+      //   pin: true,
+      //   markers: false,
+      //   anticipatePin: 1,
+      // });
     </script>
 
     <script type="module" src="main.js"></script>

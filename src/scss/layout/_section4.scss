@@ -2,7 +2,7 @@
   .container {
     width: 70%;
     min-width: 400px;
-    height: 150vh;
+    height: 350vh;
     background-color: #f5e9df;
     .sec__wrap1 {
       .sec__img1 {
@@ -27,6 +27,7 @@
       }
     }
     .button1 {
+      position: relative;
       .git {
         width: 20vw;
         height: 6vw;
@@ -35,8 +36,9 @@
         background-color: #f5e9df;
         color: #ad8073;
         border: 1px solid #ad8073;
-        margin-left: 5vw;
-
+        position: absolute;
+        left: 3vw;
+        bottom: -1vw;
         text-align: center;
         font-weight: 100;
       }
@@ -48,287 +50,81 @@
         background-color: #f5e9df;
         color: #ad8073;
         border: 1px solid #ad8073;
-        margin-left: 2vw;
-
+        position: absolute;
+        left: 28vw;
+        bottom: -1vw;
         text-align: center;
         font-weight: 100;
       }
     }
-    // .pa__wrap {
-    //   display: flex;
-    //   .parallax__item {
-    //     .parallax__item__num {
-    //       font-size: 35px;
-    //       font-weight: 200;
-    //     }
-    //     .parallax__item__text1 {
-    //       font-size: 8px;
-    //       font-family: NexonLv1GothicLow;
-
-    //       line-height: 1.5;
-    //       text-align: left;
-    //     }
-    //   }
-
-    //   .parallax__item__imgWrap {
-    //     .parallax__item__img {
-    //       background-image: url(../../images/img01.png);
-    //       width: 100%;
-    //       height: 60vh;
-    //       background-size: cover;
-    //       background-repeat: no-repeat;
-    //     }
-    //   }
-    // }
-    // .button1 {
-    //   position: relative;
-
-    //   .git {
-    //     width: 20vw;
-    //     height: 6vw;
-    //     font-size: 1.3vw;
-    //     border-radius: 50px;
-    //     background-color: #f5e9df;
-    //     color: #ad8073;
-    //     border: 1px solid #ad8073;
-    //     position: absolute;
-    //     left: 3vw;
-    //     top: 21vw;
-    //     text-align: center;
-    //     font-weight: 100;
-    //   }
-    //   .site {
-    //     width: 20vw;
-    //     height: 6vw;
-    //     font-size: 1.3vw;
-    //     border-radius: 50px;
-    //     background-color: #f5e9df;
-    //     color: #ad8073;
-    //     border: 1px solid #ad8073;
-    //     position: absolute;
-    //     left: 26vw;
-    //     top: 21vw;
-    //     text-align: center;
-    //     font-weight: 100;
-    //   }
-    // }
-    // .parallax__item2 {
-    //   position: relative;
-
-    //   .parallax__item__imgWrap2 {
-    //     .parallax__item__img2 {
-    //       width: 50%;
-    //       height: 30vh;
-    //       background-size: cover;
-    //       background-repeat: no-repeat;
-    //       background-image: url(../../images/img02.png);
-    //       position: absolute;
-    //       right: 0;
-    //     }
-    //   }
-    //   .parallax__item__num2 {
-    //     font-size: 8vw;
-    //     position: absolute;
-    //     left: 3vw;
-    //     top: 3vw;
-    //     font-weight: 200;
-    //   }
-    //   .parallax__item__text2 {
-    //     font-size: 1vw;
-    //     font-family: NexonLv1GothicLow;
-    //     position: absolute;
-    //     left: 3vw;
-    //     top: 17vw;
-    //     line-height: 1.7;
-    //   }
-    // }
-    // .button2 {
-    //   position: relative;
-    //   .git2 {
-    //     width: 15vw;
-    //     height: 5vw;
-    //     font-size: 5px;
-    //     border-radius: 50px;
-    //     background-color: #f5e9df;
-    //     color: #ad8073;
-    //     border: 1px solid #ad8073;
-    //     position: absolute;
-    //     left: 5vw;
-    //     top: 38vw;
-    //     text-align: center;
-    //     font-weight: 100;
-    //   }
-    //   .site2 {
-    //     width: 15vw;
-    //     height: 5vw;
-    //     font-size: 5px;
-    //     border-radius: 50px;
-    //     background-color: #f5e9df;
-    //     color: #ad8073;
-    //     border: 1px solid #ad8073;
-    //     position: absolute;
-    //     left: 25vw;
-    //     top: 38vw;
-    //     text-align: center;
-    //     font-weight: 100;
-    //   }
-    // }
-    // .parallax__item3 {
-    //   position: relative;
-    //   margin-top: 10vw;
-    //   .parallax__item__imgWrap3 {
-    //     width: 50%;
-    //     height: 30vh;
-    //     background-size: cover;
-    //     background-repeat: no-repeat;
-    //     position: absolute;
-    //     top: 40vw;
-    //     background-image: url(../../images/img03.png);
-    //     .parallax__item__img3 {
-    //     }
-    //   }
-    //   .parallax__item__num3 {
-    //     font-size: 8vw;
-    //     position: absolute;
-    //     right: 13vw;
-    //     top: 43vw;
-    //     font-weight: 200;
-    //   }
-    //   .parallax__item__text3 {
-    //     font-size: 1vw;
-    //     font-family: NexonLv1GothicLow;
-    //     position: absolute;
-    //     right: 2vw;
-    //     top: 55vw;
-    //     line-height: 1.7;
-    //     text-align: left;
-    //   }
-    // }
-    // .button3 {
-    //   position: relative;
-
-    //   .git3 {
-    //     width: 15vw;
-    //     height: 5vw;
-    //     font-size: 1.3vw;
-    //     border-radius: 50px;
-    //     background-color: #f5e9df;
-    //     color: #ad8073;
-    //     border: 1px solid #ad8073;
-    //     position: absolute;
-    //     right: 30vw;
-    //     top: 80vw;
-    //     text-align: center;
-    //     font-weight: 100;
-    //   }
-    //   .site3 {
-    //     width: 15vw;
-    //     height: 5vw;
-    //     font-size: 1.3vw;
-    //     border-radius: 50px;
-    //     background-color: #f5e9df;
-    //     color: #ad8073;
-    //     border: 1px solid #ad8073;
-    //     position: absolute;
-    //     right: 10vw;
-    //     top: 80vw;
-    //     text-align: center;
-    //     font-weight: 100;
-    //   }
-    // }
-    // .parallax__item4 {
-    //   margin-top: 20vw;
-    //   position: relative;
-    //   .parallax__item__imgWrap4 {
-    //     .parallax__item__img4 {
-    //       width: 50%;
-    //       height: 30vh;
-    //       background-size: cover;
-    //       background-repeat: no-repeat;
-    //       background-image: url(../../images/img04.png);
-    //       position: absolute;
-    //       right: 0;
-    //       top: 80vw;
-    //     }
-    //   }
-    //   .parallax__item__num4 {
-    //     font-size: 7vw;
-    //     position: absolute;
-    //     top: 85vw;
-    //     left: 2vw;
-    //     font-weight: 200;
-    //   }
-    //   .parallax__item__text4 {
-    //     font-size: 10px;
-    //     font-family: NexonLv1GothicLow;
-    //     position: absolute;
-    //     left: 2vw;
-    //     top: 100vw;
-    //     line-height: 1.7;
-    //   }
-    // }
-    // .button4 {
-    //   position: relative;
-
-    //   .git4 {
-    //     width: 11vw;
-    //     height: 3vw;
-    //     font-size: 1.3vw;
-    //     border-radius: 50px;
-    //     background-color: #f5e9df;
-    //     color: #ad8073;
-    //     border: 1px solid #ad8073;
-    //     position: absolute;
-    //     left: 38vw;
-    //     top: -7vw;
-    //     text-align: center;
-    //     font-weight: 100;
-    //   }
-    //   .site4 {
-    //     width: 11vw;
-    //     height: 3vw;
-    //     font-size: 1.3vw;
-    //     border-radius: 50px;
-    //     background-color: #f5e9df;
-    //     color: #ad8073;
-    //     border: 1px solid #ad8073;
-    //     position: absolute;
-    //     left: 52vw;
-    //     top: -7vw;
-    //     text-align: center;
-    //     font-weight: 100;
-    //   }
-    // }
-    // .button4 {
-    //   position: relative;
-    //   .git4 {
-    //     width: 15vw;
-    //     height: 5vw;
-    //     font-size: 1.3vw;
-    //     border-radius: 50px;
-    //     background-color: #f5e9df;
-    //     color: #ad8073;
-    //     border: 1px solid #ad8073;
-    //     position: absolute;
-    //     left: 4vw;
-    //     top: 125vw;
-    //     text-align: center;
-    //     font-weight: 100;
-    //   }
-    //   .site4 {
-    //     width: 15vw;
-    //     height: 5vw;
-    //     font-size: 1.3vw;
-    //     border-radius: 50px;
-    //     background-color: #f5e9df;
-    //     color: #ad8073;
-    //     border: 1px solid #ad8073;
-    //     position: absolute;
-    //     left: 25vw;
-    //     top: 125vw;
-    //     text-align: center;
-    //     font-weight: 100;
-    //   }
-    // }
+    .sec__wrap2 {
+      margin-top: 10vw;
+      .sec__img2 {
+        width: 100%;
+        height: 60vh;
+        background-image: url(../assets/images/img02.png);
+        background-size: cover;
+      }
+      .sec__inner2 {
+        display: flex;
+        .sec__inner__text2 {
+          font-size: 40px;
+          margin-top: 2vw;
+          font-weight: 200;
+        }
+        .sec__inner__desc2 {
+          font-size: 10px;
+          padding-top: 10vw;
+          margin-left: 1vw;
+          font-family: NexonLv1GothicLow;
+        }
+      }
+    }
+    .sec__wrap3 {
+      margin-top: 10vw;
+      .sec__img3 {
+        width: 100%;
+        height: 60vh;
+        background-image: url(../assets/images/img03.png);
+        background-size: cover;
+      }
+      .sec__inner3 {
+        display: flex;
+        .sec__inner__text3 {
+          font-size: 40px;
+          margin-top: 2vw;
+          font-weight: 200;
+        }
+        .sec__inner__desc3 {
+          font-size: 10px;
+          padding-top: 10vw;
+          margin-left: 1vw;
+          font-family: NexonLv1GothicLow;
+        }
+      }
+    }
+    .sec__wrap4 {
+      margin-top: 10vw;
+      .sec__img4 {
+        width: 100%;
+        height: 60vh;
+        background-image: url(../assets/images/img04.png);
+        background-size: cover;
+      }
+      .sec__inner4 {
+        display: flex;
+        .sec__inner__text4 {
+          font-size: 35px;
+          margin-top: 2vw;
+          font-weight: 200;
+        }
+        .sec__inner__desc4 {
+          font-size: 10px;
+          padding-top: 10vw;
+          margin-left: 1vw;
+          font-family: NexonLv1GothicLow;
+        }
+      }
+    }
   }
 }

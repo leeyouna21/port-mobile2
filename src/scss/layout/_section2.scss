@@ -1,0 +1,99 @@
+#section2 {
+  .container {
+    width: 70%;
+    min-width: 400px;
+    height: 190vh;
+    margin: 0 auto;
+    background-color: #f5e9df;
+    .title {
+      font-size: 13vw;
+      text-align: right;
+      padding-top: 10vw;
+      font-weight: 100;
+      color: #4b3d30;
+    }
+    .subTitle {
+      font-size: 3vw;
+      text-align: left;
+      text-transform: uppercase;
+      padding-top: 4vw;
+      margin-left: 35vw;
+      color: #4b3d30;
+    }
+    .aboutBox1 {
+      .imgWrap {
+        .img {
+          width: 40vw;
+          height: 50vw;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-image: url(../../images/main1__me02.jpg);
+          margin-top: 5vw;
+          margin-left: 5vw;
+        }
+      }
+      .text {
+        font-size: 1vw;
+        font-family: NexonLv1GothicLow;
+        margin-top: 5vw;
+        padding-left: 9vw;
+        color: #4b3d30;
+      }
+    }
+    .aboutBox2 {
+      .about__title1 {
+        font-size: 8vw;
+        margin-top: 35vw;
+        color: #be968b;
+      }
+      .text {
+        .img {
+          background-image: url(../../images/main1__me03.jpg);
+          width: 20vw;
+          height: 20vh;
+          background-size: cover;
+          background-repeat: no-repeat;
+          margin-left: 45vw;
+          margin-top: -30vw;
+        }
+        .desc {
+          font-size: 1vw;
+          font-family: NexonLv1GothicLow;
+          text-align: left;
+          margin-top: 3vw;
+          margin-left: 30vw;
+          color: #4b3d30;
+        }
+      }
+    }
+    .aboutBox3 {
+      position: relative;
+      .about__title2 {
+        font-size: 8vw;
+        position: absolute;
+        left: 30vw;
+        top: 15vw;
+        color: #906d63;
+      }
+      .text {
+        .img {
+          background-image: url(../../images/main1__me01.jpg);
+          width: 25vw;
+          height: 35vw;
+          margin-left: 3vw;
+          margin-top: 20vw;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        .desc {
+          font-size: 1vw;
+          font-family: NexonLv1GothicLow;
+          position: absolute;
+          left: 30vw;
+          top: 27vw;
+          color: #4b3d30;
+        }
+      }
+    }
+  }
+}

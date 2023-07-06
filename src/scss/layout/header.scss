@@ -1,0 +1,33 @@
+body {
+  width: 100vw;
+  height: 300vh;
+  background-color: #ccc;
+  .container {
+    width: 70%;
+    min-width: 400px;
+    margin: 0 auto;
+    #header {
+      position: fixed;
+      left: 50%;
+      top: 0;
+      transform: translateX(-50%);
+      width: 70%;
+      min-width: 400px;
+      height: 66px;
+      background-color: #f5fff85e;
+      backdrop-filter: blur(10px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-transform: uppercase;
+      padding: 10px 15px;
+      z-index: 10000;
+      .header__name {
+        font-size: 20px;
+      }
+      .header__cont {
+        font-size: 20px;
+      }
+    }
+  }
+}

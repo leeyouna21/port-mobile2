@@ -1,0 +1,44 @@
+#main {
+  #section1 {
+    .container {
+      width: 70%;
+      min-width: 400px;
+      height: 100vh;
+      margin: 0 auto;
+      background-image: url(../../images/headerbg.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      h2 {
+        padding-top: 4vw;
+        text-align: center;
+        font-size: 21vw;
+        color: #fff;
+        font-weight: 300;
+      }
+      .desc1 {
+        font-size: 1.5vw;
+        color: #fff;
+        text-transform: uppercase;
+        // margin-left: vw;
+        text-align: center;
+      }
+      .desc2 {
+        font-size: 4vw;
+        color: #fff;
+        text-transform: uppercase;
+        margin-left: 15vw;
+        padding-top: 5vw;
+      }
+      .desc3 {
+        width: 40vw;
+        margin-left: 15vw;
+        padding-top: 10vw;
+        .name {
+          font-size: 3vw;
+          color: #fff;
+          margin-left: 9vw;
+        }
+      }
+    }
+  }
+}

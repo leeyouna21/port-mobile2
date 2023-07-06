@@ -1,0 +1,17 @@
+#section3 {
+  .container {
+    width: 70%;
+    min-width: 400px;
+    height: 50vh;
+    background-color: #4b3d30;
+    .box {
+    }
+    .text {
+      span {
+        color: #fff;
+        font-size: 2vw;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

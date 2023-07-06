@@ -1,0 +1,284 @@
+#section4 {
+  .container {
+    width: 70%;
+    min-width: 400px;
+    height: 150vh;
+    background-color: #f5e9df;
+    .parallax__item {
+      position: relative;
+      .parallax__item__num {
+        font-size: 6vw;
+        position: absolute;
+        left: 37vw;
+        top: 5vw;
+        font-weight: 200;
+      }
+      .parallax__item__text1 {
+        font-size: 10px;
+        font-family: NexonLv1GothicLow;
+        position: absolute;
+        left: 38vw;
+        top: 15vw;
+        line-height: 1.7;
+        text-align: left;
+      }
+      .parallax__item__imgWrap {
+        .parallax__item__img {
+          background-image: url(../../images/img01.png);
+          width: 50%;
+          height: 30vh;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+    .button1 {
+      position: relative;
+
+      .git {
+        width: 11vw;
+        height: 3vw;
+        font-size: 1.3vw;
+        border-radius: 50px;
+        background-color: #f5e9df;
+        color: #ad8073;
+        border: 1px solid #ad8073;
+        position: absolute;
+        left: 38vw;
+        top: -7vw;
+        text-align: center;
+        font-weight: 100;
+      }
+      .site {
+        width: 11vw;
+        height: 3vw;
+        font-size: 1.3vw;
+        border-radius: 50px;
+        background-color: #f5e9df;
+        color: #ad8073;
+        border: 1px solid #ad8073;
+        position: absolute;
+        left: 52vw;
+        top: -7vw;
+        text-align: center;
+        font-weight: 100;
+      }
+    }
+    .parallax__item2 {
+      position: relative;
+
+      .parallax__item__imgWrap2 {
+        .parallax__item__img2 {
+          width: 50%;
+          height: 30vh;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-image: url(../../images/img02.png);
+          position: absolute;
+          right: 0;
+        }
+      }
+      .parallax__item__num2 {
+        font-size: 6vw;
+        position: absolute;
+        left: 2vw;
+        top: 3vw;
+        font-weight: 200;
+      }
+      .parallax__item__text2 {
+        font-size: 10px;
+        font-family: NexonLv1GothicLow;
+        position: absolute;
+        left: 2vw;
+        top: 13vw;
+        line-height: 1.7;
+      }
+    }
+    .button2 {
+      position: relative;
+      .git2 {
+        width: 11vw;
+        height: 3vw;
+        font-size: 1.3vw;
+        border-radius: 50px;
+        background-color: #f5e9df;
+        color: #ad8073;
+        border: 1px solid #ad8073;
+        position: absolute;
+        left: 4vw;
+        top: 35vw;
+        text-align: center;
+        font-weight: 100;
+      }
+      .site2 {
+        width: 11vw;
+        height: 3vw;
+        font-size: 1.3vw;
+        border-radius: 50px;
+        background-color: #f5e9df;
+        color: #ad8073;
+        border: 1px solid #ad8073;
+        position: absolute;
+        left: 18vw;
+        top: 35vw;
+        text-align: center;
+        font-weight: 100;
+      }
+    }
+    .parallax__item3 {
+      position: relative;
+      .parallax__item__imgWrap3 {
+        width: 50%;
+        height: 30vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 40vw;
+        background-image: url(../../images/img03.png);
+        .parallax__item__img3 {
+        }
+      }
+      .parallax__item__num3 {
+        font-size: 6vw;
+        position: absolute;
+        left: 37vw;
+        top: 43vw;
+        font-weight: 200;
+      }
+      .parallax__item__text3 {
+        font-size: 10px;
+        font-family: NexonLv1GothicLow;
+        position: absolute;
+        left: 37vw;
+        top: 55vw;
+        line-height: 1.7;
+        text-align: left;
+      }
+    }
+    .button3 {
+      position: relative;
+
+      .git3 {
+        width: 11vw;
+        height: 3vw;
+        font-size: 1.3vw;
+        border-radius: 50px;
+        background-color: #f5e9df;
+        color: #ad8073;
+        border: 1px solid #ad8073;
+        position: absolute;
+        left: 38vw;
+        top: 73vw;
+        text-align: center;
+        font-weight: 100;
+      }
+      .site3 {
+        width: 11vw;
+        height: 3vw;
+        font-size: 1.3vw;
+        border-radius: 50px;
+        background-color: #f5e9df;
+        color: #ad8073;
+        border: 1px solid #ad8073;
+        position: absolute;
+        left: 52vw;
+        top: 73vw;
+        text-align: center;
+        font-weight: 100;
+      }
+    }
+    .parallax__item4 {
+      position: relative;
+      .parallax__item__imgWrap4 {
+        .parallax__item__img4 {
+          width: 50%;
+          height: 30vh;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-image: url(../../images/img04.png);
+          position: absolute;
+          right: 0;
+          top: 80vw;
+        }
+      }
+      .parallax__item__num4 {
+        font-size: 4.5vw;
+        position: absolute;
+        top: 85vw;
+        left: 1vw;
+        font-weight: 200;
+      }
+      .parallax__item__text4 {
+        font-size: 10px;
+        font-family: NexonLv1GothicLow;
+        position: absolute;
+        left: 2vw;
+        top: 95vw;
+        line-height: 1.7;
+      }
+    }
+    .button4 {
+      position: relative;
+
+      .git4 {
+        width: 11vw;
+        height: 3vw;
+        font-size: 1.3vw;
+        border-radius: 50px;
+        background-color: #f5e9df;
+        color: #ad8073;
+        border: 1px solid #ad8073;
+        position: absolute;
+        left: 38vw;
+        top: -7vw;
+        text-align: center;
+        font-weight: 100;
+      }
+      .site4 {
+        width: 11vw;
+        height: 3vw;
+        font-size: 1.3vw;
+        border-radius: 50px;
+        background-color: #f5e9df;
+        color: #ad8073;
+        border: 1px solid #ad8073;
+        position: absolute;
+        left: 52vw;
+        top: -7vw;
+        text-align: center;
+        font-weight: 100;
+      }
+    }
+    .button4 {
+      position: relative;
+      .git4 {
+        width: 11vw;
+        height: 3vw;
+        font-size: 1.3vw;
+        border-radius: 50px;
+        background-color: #f5e9df;
+        color: #ad8073;
+        border: 1px solid #ad8073;
+        position: absolute;
+        left: 4vw;
+        top: 115vw;
+        text-align: center;
+        font-weight: 100;
+      }
+      .site4 {
+        width: 11vw;
+        height: 3vw;
+        font-size: 1.3vw;
+        border-radius: 50px;
+        background-color: #f5e9df;
+        color: #ad8073;
+        border: 1px solid #ad8073;
+        position: absolute;
+        left: 18vw;
+        top: 115vw;
+        text-align: center;
+        font-weight: 100;
+      }
+    }
+  }
+}

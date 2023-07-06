@@ -9,21 +9,22 @@
       background-size: cover;
       background-repeat: no-repeat;
       h2 {
-        padding-top: 10vw;
+        padding-top: 40px;
         text-align: center;
-        font-size: 30vw;
+        font-size: 110px;
         color: #fff;
         font-weight: 300;
+        margin-right: 9vw;
       }
       .desc1 {
-        font-size: 1.5vw;
+        font-size: 15px;
         color: #fff;
         text-transform: uppercase;
         // margin-left: vw;
         text-align: center;
       }
       .desc2 {
-        font-size: 5vw;
+        font-size: 20px;
         color: #fff;
         text-transform: uppercase;
         margin-left: 15vw;
@@ -38,12 +39,13 @@
           width: 50vw;
           position: absolute;
           left: 10vw;
-          top: 10vw;
+          top: 20vw;
         }
         .name {
           font-size: 3vw;
           color: #fff;
-          margin-left: 9vw;
+          margin-left: 50vw;
+          margin-top: 60vw;
         }
       }
     }
